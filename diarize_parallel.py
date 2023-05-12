@@ -96,7 +96,7 @@ else:
 # Reading timestamps <> Speaker Labels mapping
 nemo_process.communicate()
 ROOT = os.getcwd()
-temp_path = os.path.join(ROOT, "temp_outputs")
+temp_path = os.path.join(ROOT, "temp_outputs/temp_outputs")
 
 speaker_ts = []
 with open(os.path.join(temp_path, "pred_rttms", "mono_file.rttm"), "r") as f:
